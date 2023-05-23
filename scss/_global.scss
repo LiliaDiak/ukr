@@ -1,0 +1,65 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    // font-family: 'Comfortaa', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262C27;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.container{
+max-width: 1230px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.logo{
+    transition: fill 4s;
+:hover path{
+    fill:#0093a1;
+}
+}
+img{
+    object-fit: cover;
+}
+.technology__top{
+    background-image: url(../images/Fanatic_RayAirPocket_DJI_0638_Sigmund\.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+.popup-btn {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.popup-btn span{
+  padding-top: 12px;
+  color:#fff;
+  display: block;
+}
+.popup-btn:hover path {
+    transition: all .4s;
+    fill: #B9C400;
+}
+.popup-btn:hover circle{
+    transition: all .4s;
+    stroke:#B9C400;
+}
+.popup-btn:hover span{
+    transition: all .4s;
+    color:#0093A1;
+}

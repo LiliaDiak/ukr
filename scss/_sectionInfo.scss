@@ -1,0 +1,101 @@
+.info{
+        background-image: url(../images/info_bg.jpg);
+        background-repeat: no-repeat;
+        max-height: 2790px;
+        background-position: center;
+        background-size: cover;
+        &__inner{
+        color:#fff;
+        margin-top: 50px;
+    }
+    &__top{
+        display: flex;
+        gap:80px;
+        padding-top: 100px;
+    }
+    &__top-text{
+        padding-top: 245px;
+        max-width: 290px;
+        color:#fff;
+        position: relative;
+    }
+    &__top-img{
+        position: relative;
+        z-index: 6;
+        width: 255px;
+    }
+    .popup-btn{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    .popup-btn span{
+        padding-top: 12px;
+        color:#fff;
+        display: block;
+    }
+    &__btn{
+        position: absolute;
+        top:500px;
+    }
+    &__btn:hover path {
+        transition: all .4s;
+        fill: #B9C400;
+    }
+    &__btn:hover circle{
+        transition: all .4s;
+        stroke:#B9C400;
+    }
+    &__btn:hover span{
+        transition: all .4s;
+        color:#0093A1;
+    }
+
+
+
+
+    &__bottom{
+        display: flex;
+        margin-top: 605px;
+
+    }
+    &__bottom-text{
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 67px;
+        font-family: 'Comfortaa', cursive;
+        text-transform: uppercase;
+       display: flex;
+       align-items: center;
+       margin-right: 162px;
+    }
+    &__bottom-list{
+        list-style: none;
+        font-weight: 700;
+        margin-right: 25px;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    &__bottom-list-1::before{
+        content: "";
+        position: absolute;
+        width: 565px;
+        height: 1px;
+        background-color: #fff;
+        top: -30px;
+        right: -387px;
+    }
+    &__bottom-list-1::after{
+        content: "";
+        position: absolute;
+        width: 565px;
+        height: 1.5px;
+        background-color: #fff;
+        top: 385px;
+        right: -387px;
+    }
+    &__bottom-list li{
+        padding-bottom: 20px;
+    }
+}

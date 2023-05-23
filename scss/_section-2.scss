@@ -1,0 +1,158 @@
+.pocket{
+    &__inner{
+        padding-top: 150px;
+    }
+    &__title{
+        font-weight: 400;
+        font-size: 60px;
+        color: #0093A1;
+        font-family: 'Comfortaa', cursive;
+        margin-bottom: 50px;
+    }
+    &__info{
+        display: flex;
+    }
+    &__info-title{
+        margin-top:25px;
+    }
+    &__info-text{
+        font-family: 'Inter', sans-serif;
+        margin-top: 5px;
+        max-width:284px;
+    }
+
+    &__button{
+        margin-top: 50px;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        color: #0093A1;
+        padding: 18px 197px 17px 197px;
+        border:2px solid #0093A1;
+        text-transform: uppercase;
+        background-color: transparent;
+        cursor: pointer;
+        transition: all .4s;
+    }
+    &__button:hover{
+        background-color: #B9C400;
+        color:#262C27;
+        border:2px solid #B9C400;
+    }
+    .price__img{
+        margin-top: 371px;
+        margin-left: 20px;
+        position: relative;
+        max-height: 200px;
+    }
+    .price{
+       position: absolute; 
+    }
+    span{
+        position: absolute;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        color: #262c27;
+        margin-left: 360px;
+        margin-top: 450px;
+        cursor: pointer;
+    }
+    span:hover{
+        transition: all .4s;
+        font-size: 38px;
+    }
+    &__img{
+        margin-left: 122px;
+        cursor: pointer;
+    }
+    &__img:hover svg{
+       width: 250;
+       height: 248;
+    }
+}
+
+
+
+
+.pocket__inner {
+    padding-top: 150px; }
+  
+  .pocket__title {
+    font-weight: 400;
+    font-size: 60px;
+    color: #0093A1;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 50px; }
+  
+  .pocket__info {
+    display: flex; }
+  
+  .pocket__info-title {
+    margin-top: 25px; }
+  
+  .pocket__info-text {
+    font-family: 'Inter', sans-serif;
+    margin-top: 5px;
+    max-width: 284px; }
+  
+  .pocket__button {
+    margin-top: 50px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #0093A1;
+    padding: 18px 197px 17px 197px;
+    border: 2px solid #0093A1;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .4s; }
+  
+  .pocket__button:hover {
+    background-color: #B9C400;
+    color: #262C27;
+    border: 2px solid #B9C400; }
+  
+  .pocket .price__img {
+    margin-top: 371px;
+    margin-left: 20px;
+    position: relative;
+    max-height: 200px; }
+  
+  .pocket .price {
+    position: absolute; }
+  
+  .pocket span {
+    position: absolute;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #262c27;
+    margin-left: 360px;
+    margin-top: 450px;
+    cursor: pointer; }
+  
+  .pocket span:hover {
+    transition: all .4s;
+    font-size: 38px; }
+  
+  .pocket__img {
+    margin-left: 122px;
+    width: 689px;
+    height: 687px;
+    cursor: pointer;
+   }
+  
+  .pocket__img:hover svg {
+    width: 250;
+    height: 248; }
+
+    
+
+
+
+
+    

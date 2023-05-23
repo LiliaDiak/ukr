@@ -1,0 +1,73 @@
+.footer{
+    background-color: #262C27;
+    padding-bottom: 80px;
+    &__top{
+        display: flex;
+        gap: 410px;
+    }
+    &__form{
+        margin-top: 100px;
+    }
+    &__title{
+        font-family: 'Comfortaa', cursive;
+        font-size: 60px;
+        line-height: 67px;
+        color: #FFFFFF;
+        white-space: nowrap;
+        margin-bottom: 25px;
+    }
+    .form__inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .input__footer{
+        background-color: transparent;
+        border: none;
+        opacity: 0.4;
+        border-bottom: 1px solid #FFFFFF;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 9px 0;
+        margin-bottom: 58px;
+        text-transform: uppercase;
+    }
+    &__btn{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        font-family: 'Comfortaa', cursive;
+        color: #000000;
+        text-transform: uppercase;
+        padding: 10px 66px;
+        margin-top: -10px;
+        
+    }
+    &__logo{
+        margin-top: 87px;
+        cursor: pointer;
+        :hover path{
+        transition: fill .4s;
+        fill: #0093A1;
+        }
+    }
+    &__bottom{
+        color: #FFFFFF;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__inst{
+        margin:97px 0 0 28px;
+    }
+    &__images{
+        display: flex;
+        gap: 52px;
+    }
+    &__contacts{
+
+        display: flex;
+        gap: 90px;
+        white-space: nowrap;
+        margin-top: 50px;
+    }
+}
